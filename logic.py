@@ -146,4 +146,3 @@ class Divide(Resource):
             'Status Code': 200
         }
         return jsonify(ret_map)
-

@@ -3,18 +3,21 @@ This is Beginners Friendly Flask Application which does the basic arithmetic ope
 
 [Click here check the Docker Hub Repo](https://hub.docker.com/r/santhoshkdhana/flask-calculator-beginner)
 
-## Pull the docker Image
-```
-docker pull santhoshkdhana/flask-calculator-beginner:latest
-```
-## Start the container
-```
-docker container run -d -p 5000:5000 --name=santyflask flask-calculator-beginner
-```
+py -m venv <venv> - <name of virtual variable>
+pip install flask - load flask framework
+venv\Script\activate - activate script ???
+flask run OR   py app.py
 
+go to dir with project
+docker build -t <cmd> . - <name of image>
+docker run -p 5000:5000 -d <cmd>
 
-# Flask Calculator
-The container will expose port **5000**
+Run test case
+docker run -it flask-hello-world pytest test.py
+
+docker login
+docker push cmd liakhaupavel/cmd
+
 
 **API**
 

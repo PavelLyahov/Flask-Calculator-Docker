@@ -1,5 +1,5 @@
-from flask import Flask, jsonify, request
-from flask_restful import Api, Resource
+from flask import Flask
+from flask_restful import Api
 from logic import Add, Subtract, Multiply, Divide
 
 
@@ -17,5 +17,5 @@ def hello_world():
     return "Hello World!"
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     app.run(host="0.0.0.0")
