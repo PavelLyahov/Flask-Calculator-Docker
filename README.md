@@ -9,7 +9,7 @@ venv\Script\activate - activate script ???
 flask run OR   py app.py
 
 go to dir with project
-docker build -t <cmd> . - <name of image>
+docker image build -t <cmd> . - <name of image>
 docker run -p 5000:5000 -d <cmd>
 
 Run test case
